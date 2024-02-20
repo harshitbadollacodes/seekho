@@ -1,0 +1,71 @@
+.plans-container {
+  margin-top: 3.5rem;
+}
+
+.plan-card {
+  background: var(--navy);
+  border-radius: 8px;
+  padding: 2.5rem 1.5rem 2.3rem;
+  margin-bottom: 0.6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price-details {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox-container {
+  position: relative;
+}
+
+.checkbox {
+  width: 14px;
+  height: 14px;
+  border: 1px solid var(--white);
+  border-radius: 50%;
+}
+
+.active {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 9px;
+  height: 9px;
+  border: 1px solid var(--white);
+  border-radius: 50%;
+  background-color: var(--white);
+}
+
+.duration {
+  font-size: 1.1rem;
+}
+
+.price-container {
+  margin-left: 1rem;
+}
+
+.min-price {
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: 500;
+  color: var(--yellow);
+}
+
+.duration {
+  margin-left: 0.2rem;
+}
+
+.original-price {
+  font-size: 1rem;
+  color: var(--grey);
+  text-decoration: line-through;
+}
+
+.duration-text {
+  font-size: 1.6rem;
+}

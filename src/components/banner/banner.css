@@ -1,0 +1,14 @@
+.banner-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.banner-image {
+  width: 100vw;
+}
+
+.banner-title {
+  text-align: center;
+  font-size: 2rem;
+}
