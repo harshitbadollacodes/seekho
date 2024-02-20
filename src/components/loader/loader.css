@@ -1,0 +1,8 @@
+.loader-title {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+  font-size: 2rem;
+  transform: all ease 2s;
+}

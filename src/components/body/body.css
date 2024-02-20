@@ -1,0 +1,7 @@
+.main {
+  margin: 1rem;
+}
+
+.body-container:last-child {
+  margin-bottom: 5rem;
+}
